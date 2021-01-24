@@ -18,3 +18,6 @@ It will create 1 runner in the GCP project specified in your `custom.tfvars` fil
 project = "your-project-id"
 network = "gitlab-runner"
 ```
+
+### Links
+[Install GitLab Runner manually on GNU/Linux](https://docs.gitlab.com/runner/install/linux-manually.html)
