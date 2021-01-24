@@ -19,5 +19,8 @@ project = "your-project-id"
 network = "gitlab-runner"
 ```
 
+After you will need to [register the runner](https://docs.gitlab.com/runner/register/index.html#linux)
+
 ### Links
 [Install GitLab Runner manually on GNU/Linux](https://docs.gitlab.com/runner/install/linux-manually.html)
+[Register the Runner](https://docs.gitlab.com/runner/register/index.html#linux)
