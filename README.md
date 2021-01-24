@@ -1,4 +1,4 @@
-# Simple Gitlab Runner
+# GCP Gitlab Runner 
 A Very Simple Gitlab Runner for GCP
 
 ### Where to start ?
