@@ -38,5 +38,5 @@ sudo systemctl restart docker
 sudo systemctl enable docker
 
 # Replace ${arch} with any of the supported architectures, e.g. x86_64, arm, arm64
-curl -LJO "https://gitlab-runner-downloads.s3.amazonaws.com/latest/deb/gitlab-runner_x86_64.deb"
-dpkg -i gitlab-runner_x86_64.deb
+curl -LJO "https://gitlab-runner-downloads.s3.amazonaws.com/latest/deb/gitlab-runner_amd64.deb"
+dpkg -i gitlab-runner_amd64.deb
