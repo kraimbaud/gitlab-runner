@@ -8,11 +8,7 @@ sudo apt-get install -y \
     curl \
     gnupg-agent \
     software-properties-common \
-    zsh \
     vim
-
-# Install Oh-My-Zsh
-sudo sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 # Install Docker
 curl -fsSL https://download.docker.com/linux/debian/gpg | sudo apt-key add -
@@ -40,6 +36,3 @@ sudo systemctl daemon-reload
 sudo systemctl restart docker
 
 sudo systemctl enable docker
-
-sudo sed -i 's/bash/zsh/g' /etc/passwd # Use zsh as default shell
-
