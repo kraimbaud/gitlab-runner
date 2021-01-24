@@ -2,6 +2,10 @@ variable "project" {
   default = "your-project"
 }
 
+variable "network" {
+  default = "gitlab-runner"
+}
+
 variable "credentials" {
   default = "terraform-key.json"
 }
