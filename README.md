@@ -1,5 +1,5 @@
 # Simple Gitlab Runner
-A Very Simple Gitlab Runner
+A Very Simple Gitlab Runner for GCP
 
 ### Where to start ?
 - Create your GCP project: [Google Cloud Console](https://console.cloud.google.com/home/dashboard)
