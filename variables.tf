@@ -6,6 +6,10 @@ variable "network" {
   default = "gitlab-runner"
 }
 
+variable "nb_of_runners" {
+  default = 1
+}
+
 variable "credentials" {
   default = "terraform-key.json"
 }

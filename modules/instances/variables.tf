@@ -2,6 +2,10 @@ variable "network" {
   default = "default"
 }
 
+variable "vm_name" {
+  default = "gitlab-runner"
+}
+
 variable "region" {
   default = "europe-west1"
 }

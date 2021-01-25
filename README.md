@@ -16,6 +16,7 @@ terraform apply -var-file="custom.tfvars"
 It will create 1 runner in the GCP project specified in your `custom.tfvars` file.   
 ```
 project = "your-project-id"
+nb_of_runners = 1
 network = "gitlab-runner"
 ```
 

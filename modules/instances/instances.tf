@@ -1,5 +1,5 @@
 resource "google_compute_instance" "default" {
-    name = "gitlab-runner"
+    name = var.vm_name
     machine_type = "n2-standard-2"
     zone = var.zone
 
